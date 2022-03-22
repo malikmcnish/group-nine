@@ -21,7 +21,7 @@ export default function Header() {
                   Emoji-Vegie T-Shirts. We have tailored our designs to be
                   elegant for both Male and Female as well as children.
                   <p className="text-green-500 animate-bounce">
-                    Please See Options below for more Info.
+                    Please see options below for more Info.
                   </p>
                 </p>
               </div>
