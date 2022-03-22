@@ -9,11 +9,23 @@ export default function Header() {
           <div className="w-full md:w-1/2 md:px-3">
             <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
               <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-                <span className="block xl:inline">Start Shopping</span>
+                <span className="block xl:inline">Start Shopping </span>
                 <span className="block text-green-600 xl:inline">
                   Get your Style on!
                 </span>
               </h1>
+
+              <div className="border-dashed border-2 border-sky-500 bg-gray-300">
+                <p className="hover:text-blue-500">
+                  Choose from our gallery of custom made and well fitted
+                  Emoji-Vegie T-Shirts. We have tailored our designs to be
+                  elegant for both Male and Female as well as children.
+                  <p className="text-green-500 animate-bounce">
+                    Please See Options below for more Info.
+                  </p>
+                </p>
+              </div>
+
               <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
                 Browse our selections of different memorabilia.
               </p>
@@ -45,15 +57,12 @@ export default function Header() {
               </div>
             </div>
           </div>
-
           <div className="w-full md:w-1/2">
             <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
               {/* temporary image */}
               <img src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" />
             </div>
           </div>
-
-          
         </div>
       </div>
     </section>
